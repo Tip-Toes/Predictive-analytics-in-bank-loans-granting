@@ -1,4 +1,5 @@
 Dataset, algorithm, params, accuracy, precision(avg), recall(avg)
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 13}",0.841,0.862,0.841
 
-fidrst,secodnsd,third
-fidrst,secxodnsd,third
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 6, 'n_estimators': 100}",0.872,0.896,0.872
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 8, 'n_estimators': 100}",0.873,0.895,0.873
