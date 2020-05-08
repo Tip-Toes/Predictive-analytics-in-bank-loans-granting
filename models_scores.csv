@@ -1,5 +1,19 @@
 Dataset, algorithm, params, accuracy, precision(avg), recall(avg)
-feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 13}",0.841,0.862,0.841
 
-feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 6, 'n_estimators': 100}",0.872,0.896,0.872
-feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 8, 'n_estimators': 100}",0.873,0.895,0.873
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 11}",0.84,0.866,0.84
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 11}",0.84,0.866,0.84
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'gini', 'max_depth': 13}",0.824,0.846,0.824
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'gini', 'max_depth': 5}",0.78,0.831,0.78
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'gini', 'max_depth': 12}",0.843,0.864,0.843
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'gini', 'max_depth': 4}",0.801,0.844,0.801
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.826,0.851,0.826
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'gini', 'max_depth': 4}",0.778,0.83,0.778
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 11}",0.842,0.872,0.842
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.827,0.851,0.827
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 4}",0.78,0.831,0.78
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.843,0.864,0.843
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'gini', 'max_depth': 4}",0.801,0.844,0.801
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'gini', 'max_depth': 12}",0.831,0.852,0.831
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'gini', 'max_depth': 4}",0.778,0.83,0.778
