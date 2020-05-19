@@ -70,9 +70,9 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.30, random
 # %%
 
 params = {'C': [0.1, 1, 10, 100],
-          'gamma': [1, 0.1, 0.01, 0.001]}
+          'gamma': [1, 0.1, 0.01]}
 ##accuracy
-grid_search_acc = GridSearchCV(estimator=SVC(probability=True), param_grid=params, scoring='accuracy', n_jobs=-1)
+grid_search_acc = GridSearchCV(estimator=SVC(probability=True), param_grid=params, scoring='accuracy')
 grid_search_acc = grid_search_acc.fit(X_train, Y_train)
 y_predict = grid_search_acc.best_estimator_.predict(X_test)
 

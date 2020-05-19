@@ -1,167 +1,139 @@
 Dataset, algorithm, params, accuracy, precision(avg), recall(avg)
 
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.844,0.862,0.844
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.844,0.862,0.844
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.843,0.862,0.843
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.843,0.862,0.843
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.844,0.862,0.844
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.844,0.862,0.844
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.844,0.862,0.844
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.843,0.862,0.843
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801
 
 
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 7, 'n_estimators': 100}",0.875,0.898,0.875
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,XGBoost,"{'max_depth': 5, 'n_estimators': 100}",0.804,0.828,0.804
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 7, 'n_estimators': 100}",0.875,0.898,0.875
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,XGBoost,"{'max_depth': 5, 'n_estimators': 100}",0.804,0.828,0.804
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 7, 'n_estimators': 100}",0.875,0.898,0.875
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,XGBoost,"{'max_depth': 5, 'n_estimators': 100}",0.804,0.828,0.804
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 7, 'n_estimators': 100}",0.875,0.898,0.875
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,XGBoost,"{'max_depth': 5, 'n_estimators': 100}",0.804,0.828,0.804
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 7, 'n_estimators': 100}",0.875,0.898,0.875
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,XGBoost,"{'max_depth': 5, 'n_estimators': 100}",0.804,0.828,0.804
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 7, 'n_estimators': 100}",0.875,0.898,0.875
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,XGBoost,"{'max_depth': 5, 'n_estimators': 100}",0.804,0.828,0.804
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 7, 'n_estimators': 100}",0.875,0.898,0.875
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Not Normalized,XGBoost,"{'max_depth': 5, 'n_estimators': 100}",0.804,0.828,0.804
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Not Normalized,XGBoost,"{'max_depth': 7, 'n_estimators': 100}",0.875,0.898,0.875
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Not Normalized,XGBoost,"{'max_depth': 5, 'n_estimators': 100}",0.804,0.828,0.804
 
+
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.818,0.82,0.818
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.779,0.763,0.779
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.804,0.805,0.804
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,KNN,"{'n_neighbors': 7, 'metric': 'minkowski'}",0.753,0.729,0.753
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.815,0.818,0.815
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,KNN,"{'metric': 'minkowski', 'n_neighbors': 7}",0.779,0.763,0.779
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.803,0.805,0.803
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,KNN,"{'n_neighbors': 7, 'metric': 'minkowski'}",0.752,0.73,0.752
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.818,0.819,0.818
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.779,0.763,0.779
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.803,0.804,0.803
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.754,0.731,0.754
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.813,0.814,0.813
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.774,0.756,0.774
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.805,0.806,0.805
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.754,0.733,0.754
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.816,0.819,0.816
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.776,0.759,0.776
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/MinMax normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.802,0.805,0.802
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/MinMax normalised,KNN,"{'metric': 'minkowski', 'n_neighbors': 7}",0.753,0.73,0.753
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.817,0.82,0.817
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,KNN,"{'n_neighbors': 7, 'metric': 'minkowski'}",0.773,0.755,0.773
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/MinMax normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.803,0.805,0.803
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/MinMax normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.752,0.73,0.752
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.819,0.824,0.819
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.772,0.753,0.772
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/MinMax normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.802,0.807,0.802
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/MinMax normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.75,0.725,0.75
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.815,0.82,0.815
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.773,0.755,0.773
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/MinMax normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.803,0.807,0.803
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/MinMax normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.748,0.724,0.748
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.769,0.782,0.769
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.698,0.634,0.698
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.768,0.782,0.768
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.691,0.632,0.691
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.761,0.776,0.761
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,KNN,"{'n_neighbors': 7, 'metric': 'minkowski'}",0.697,0.634,0.697
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,KNN,"{'n_neighbors': 5, 'metric': 'minkowski'}",0.762,0.772,0.762
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.686,0.629,0.686
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.779,0.792,0.779
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.702,0.637,0.702
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.777,0.789,0.777
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.696,0.639,0.696
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.777,0.791,0.777
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.702,0.639,0.702
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,KNN,"{'metric': 'manhattan', 'n_neighbors': 7}",0.777,0.789,0.777
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,KNN,"{'n_neighbors': 7, 'metric': 'manhattan'}",0.69,0.632,0.69
+
+
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,ANN,"{'batch_size': 256, 'optimizer': 'rmsprop'}",0.839,0.86,0.839
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,ANN,"{'batch_size': 800, 'optimizer': 'adam'}",0.837,0.873,0.837
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,ANN,"{'batch_size': 512, 'optimizer': 'adam'}",0.831,0.866,0.831
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,ANN,"{'batch_size': 128, 'optimizer': 'adam'}",0.826,0.858,0.826
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.84,0.872,0.84
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,ANN,"{'batch_size': 128, 'optimizer': 'adam'}",0.837,0.876,0.837
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,ANN,"{'batch_size': 512, 'optimizer': 'adam'}",0.839,0.867,0.839
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,ANN,"{'batch_size': 512, 'optimizer': 'adam'}",0.828,0.855,0.828
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,ANN,"{'batch_size': 800, 'optimizer': 'adam'}",0.839,0.869,0.839
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,ANN,"{'batch_size': 800, 'optimizer': 'rmsprop'}",0.829,0.865,0.829
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.842,0.868,0.842
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,ANN,"{'batch_size': 512, 'optimizer': 'adam'}",0.834,0.865,0.834
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.835,0.868,0.835
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,ANN,"{'batch_size': 128, 'optimizer': 'adam'}",0.83,0.869,0.83
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,ANN,"{'batch_size': 512, 'optimizer': 'adam'}",0.84,0.873,0.84
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,ANN,"{'batch_size': 800, 'optimizer': 'rmsprop'}",0.836,0.872,0.836
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,ANN,"{'batch_size': 800, 'optimizer': 'rmsprop'}",0.843,0.871,0.843
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.838,0.875,0.838
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/MinMax normalised,ANN,"{'batch_size': 512, 'optimizer': 'rmsprop'}",0.827,0.86,0.827
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/MinMax normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.834,0.864,0.834
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,ANN,"{'batch_size': 800, 'optimizer': 'adam'}",0.845,0.872,0.845
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,ANN,"{'batch_size': 128, 'optimizer': 'adam'}",0.839,0.872,0.839
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/MinMax normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.825,0.863,0.825
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/MinMax normalised,ANN,"{'batch_size': 512, 'optimizer': 'rmsprop'}",0.841,0.863,0.841
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.849,0.87,0.849
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,ANN,"{'batch_size': 512, 'optimizer': 'adam'}",0.839,0.869,0.839
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/MinMax normalised,ANN,"{'batch_size': 800, 'optimizer': 'rmsprop'}",0.844,0.871,0.844
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/MinMax normalised,ANN,"{'batch_size': 800, 'optimizer': 'rmsprop'}",0.822,0.855,0.822
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,ANN,"{'batch_size': 800, 'optimizer': 'rmsprop'}",0.825,0.865,0.825
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,ANN,"{'batch_size': 128, 'optimizer': 'adam'}",0.847,0.878,0.847
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/MinMax normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.838,0.87,0.838
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/MinMax normalised,ANN,"{'batch_size': 128, 'optimizer': 'adam'}",0.825,0.858,0.825
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,ANN,"{'batch_size': 800, 'optimizer': 'rmsprop'}",0.769,0.774,0.769
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.763,0.816,0.763
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,ANN,"{'batch_size': 800, 'optimizer': 'adam'}",0.759,0.771,0.759
-
 feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,ANN,"{'batch_size': 128, 'optimizer': 'rmsprop'}",0.765,0.783,0.765
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.772,0.78,0.772
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,ANN,"{'batch_size': 800, 'optimizer': 'adam'}",0.774,0.808,0.774
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.771,0.813,0.771
-
 feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,ANN,"{'batch_size': 512, 'optimizer': 'adam'}",0.771,0.827,0.771
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,ANN,"{'batch_size': 128, 'optimizer': 'adam'}",0.787,0.814,0.787
-
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,ANN,"{'batch_size': 800, 'optimizer': 'rmsprop'}",0.772,0.822,0.772
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,ANN,"{'batch_size': 512, 'optimizer': 'rmsprop'}",0.747,0.747,0.747
-
 feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,ANN,"{'batch_size': 256, 'optimizer': 'adam'}",0.733,0.744,0.733
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,ANN,"{'batch_size': 512, 'optimizer': 'adam'}",0.725,0.727,0.725
-
 feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,ANN,"{'batch_size': 128, 'optimizer': 'adam'}",0.727,0.728,0.727
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,ANN,"{'batch_size': 128, 'optimizer': 'adam'}",0.78,0.816,0.78
-
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,ANN,"{'batch_size': 800, 'optimizer': 'rmsprop'}",0.774,0.81,0.774
-
 
 
 feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,SVM,"{'gamma': 0.1, 'C': 10}",0.836,0.846,0.836
@@ -174,4 +146,39 @@ feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing
 feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,SVM,"{'gamma': 0.001, 'C': 10}",0.778,0.83,0.778
 
 
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,SVM,"{'C': 100, 'gamma': 0.1}",0.831,0.843,0.831
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,SVM,"{'gamma': 0.001, 'C': 10}",0.801,0.843,0.801
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,SVM,"{'gamma': 0.1, 'C': 10}",0.819,0.83,0.819
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,SVM,"{'C': 100, 'gamma': 0.001}",0.78,0.831,0.78
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Z normalised,SVM,"{'C': 100, 'gamma': 0.1}",0.829,0.842,0.829
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Z normalised,SVM,"{'gamma': 0.001, 'C': 0.1}",0.801,0.844,0.801
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Z normalised,SVM,"{'gamma': 0.1, 'C': 10}",0.821,0.832,0.821
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Z normalised,SVM,"{'C': 10, 'gamma': 0.001}",0.778,0.83,0.778
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,SVM,"{'gamma': 1, 'C': 1}",0.768,0.779,0.768
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.73,0.533,0.73
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,SVM,"{'gamma': 1, 'C': 0.1}",0.767,0.775,0.767
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 0.1}",0.726,0.527,0.726
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,SVM,"{'gamma': 1, 'C': 1}",0.764,0.778,0.764
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.73,0.533,0.73
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.763,0.777,0.763
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.721,0.52,0.721
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,SVM,"{'gamma': 1, 'C': 0.1}",0.772,0.787,0.772
+feature_selection/Correlation/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,SVM,"{'gamma': 1, 'C': 0.1}",0.73,0.533,0.73
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.77,0.783,0.77
+feature_selection/Correlation/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,SVM,"{'gamma': 1, 'C': 0.1}",0.726,0.527,0.726
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.769,0.782,0.769
+feature_selection/Correlation/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.73,0.533,0.73
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Oversamlping_SMOTE/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.769,0.781,0.769
+feature_selection/Correlation/Qualitative to mode/Continuous to median/Balancing_Undersampling_Tomeklinks/Logistic normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.721,0.52,0.721
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,SVM,"{'C': 100, 'gamma': 1}",0.828,0.848,0.828
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.801,0.844,0.801
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Oversamlping_SMOTE/MinMax normalised,SVM,"{'C': 100, 'gamma': 1}",0.818,0.835,0.818
+feature_selection/Univariante ROC_AUC/Qualitative deleted/Continuous to median/Balancing_Undersampling_Tomeklinks/MinMax normalised,SVM,"{'C': 0.1, 'gamma': 1}",0.78,0.831,0.78
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Oversamlping_SMOTE/MinMax normalised,SVM,"{'gamma': 1, 'C': 100}",0.826,0.848,0.826
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous deleted/Balancing_Undersampling_Tomeklinks/MinMax normalised,SVM,"{'C': 1, 'gamma': 1}",0.801,0.842,0.801
 
+
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to mean/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 13}",0.823,0.845,0.823
+feature_selection/Univariante ROC_AUC/Qualitative to mode/Continuous to mean/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'gini', 'max_depth': 4}",0.778,0.83,0.778
+feature_selection/Correlation/Qualitative to mode/Continuous to mean/Balancing_Oversamlping_SMOTE/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 12}",0.844,0.862,0.844
+feature_selection/Correlation/Qualitative to mode/Continuous to mean/Balancing_Undersampling_Tomeklinks/Not Normalized,Decision Tree,"{'criterion': 'entropy', 'max_depth': 7}",0.801,0.842,0.801

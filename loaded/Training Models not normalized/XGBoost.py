@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import pandas as pd
 from sklearn.model_selection import GridSearchCV, train_test_split
-from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
+from sklearn.metrics import classification_report, accuracy_score
 import csv
 
 
